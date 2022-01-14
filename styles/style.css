@@ -6,3 +6,100 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+header{
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+}
+
+
+nav{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    padding: 0 4vh;
+}
+
+nav ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav ul li {
+    padding: 5px;
+}
+
+.spotify-logo{
+    height: 6vh;
+    padding: 2vh 4vh;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+/*First Panel////////////*/
+.firstPanel {
+    background-image: url(../images/landing.jpg);
+    height: 90vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+h1 {
+    color: white;
+    margin: 50px;
+    font-size: 4.5em;
+}
+.landing-text {
+    color: white;
+    font-size: 1.5em;
+    max-width: 50%;
+    text-align: center;
+}
+
+/*Second Panel////////////*/
+
+.on-spotify {
+display: flex;
+justify-content: center;
+}
+
+.secondPanel div{
+    margin: 10px;
+    display: flex;
+
+}
+
+.orange-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h3 {
+
+}
+/*Third Panel////////////*/
+
+.thirdPanel {
+    display: flex;
+}
